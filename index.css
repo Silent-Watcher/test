@@ -1,0 +1,181 @@
+@media screen and (max-width: 991px) {
+    .footer {
+        padding-inline: 12rem !important;
+    }
+}
+@media screen and (max-width: 885px) {
+    .footer {
+        padding-inline: 9rem !important;
+    }
+}
+@media screen and (max-width: 740px) {
+    .footer {
+        padding-inline: 5rem !important;
+    }
+}
+@media screen and (max-width: 412px) {
+    .footer {
+        padding-inline: 2rem !important;
+    }
+}
+@font-face {
+    font-family: 'SFProDisplayRegular';
+    src: url('fonts/SFPRODISPLAYREGULAR.OTF');
+}
+@font-face {
+    font-family: 'SFProDisplayBold';
+    src: url('fonts/SFPRODISPLAYBOLD.OTF');
+}
+body {
+    font-family: 'SFProDisplayRegular';
+}
+h2, h3, h4 {
+    font-family: 'SFProDisplayBold' !important;
+    text-align: center;
+}
+a {
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+.row, .col-12, .container-fluid {
+    margin: 0rem !important;
+    padding: 0rem;
+}
+.navbar-lg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    font-size: 12px;
+    padding-inline: 16rem;
+}
+.navbar-item a {
+    text-decoration: none !important;
+    cursor: pointer !important;
+    color: #000000 !important;
+}
+.nav-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1rem;
+}
+.item {
+    margin-block: 0.5rem;
+    padding-block: 2rem;
+}
+.item, .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.macbookair {
+    background-image: url('pictures/org/appleMacBookAir.jpg');
+}
+.save-for-college {
+    background-image: url('pictures/org/appleCollege.jpg');
+}
+.iphone-pro {
+    background-image: url('pictures/org/appleiPhone14Pro.jpg');
+}
+.iphone {
+    background-image: url('pictures/org/appleiPhone14.jpg');
+}
+.vision {
+    background-image: url('pictures/org/appleVisionPro.jpg');
+}
+.watch {
+    background-image: url('pictures/org/appleWatch.jpg');
+}
+.ipad {
+    background-image: url('pictures/org/appleMakBook.jpg');
+}
+.trade {
+    background-image: url('pictures/org/appleTrade.jpg');
+}
+.card {
+    background-image: url('pictures/org/appleCard.jpg');
+}
+.macbookair, .save-for-college, .iphone-pro, .iphone, .vision, .watch, .ipad, .trade, .card {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    height: 500px;
+    margin-block: 0.5rem !important;
+}
+.macbookair-info, .save-for-college-info, .iphone-pro-info, .iphone-info, .vision-info, .watch-info, .ipad-info, .trade-info, .card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.bg-gray {
+    background-color: #fbfbfb !important;
+}
+.text-white {
+    color: #ffffff !important;
+}
+.footer {
+    padding-inline: 16rem;
+    padding-top: 1rem;
+    margin-top: 1rem !important;
+    color: #6E6E73;
+    font-size: 12px;
+}
+.footer .col-2, .footer .col-4 {
+    margin: 0rem !important;
+    padding: 0rem !important;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0rem !important;
+    margin: 0rem !important;
+}
+.footer h6, .footer li {
+    margin-block: 0.3rem;
+    color: #424245 !important;
+}
+.footer a {
+    color: #6E6E73 !important;
+}
+.dropdown {
+    width: inherit !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: stretch !important;
+    align-items: stretch;
+    text-align: left;
+}
+.dropdown button {
+    background-color: inherit;
+    text-align: left;
+    color: #000000;
+    border: none;
+    border-bottom: 1px solid #d2d2d2;
+    border-radius: 0px;
+}
+.dropdown:hover button {
+    background-color: inherit;
+    color: #000000;
+}
+.dropdown:active button {
+    background-color: inherit;
+    color: #000000;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: inherit;
+    color: #000000;
+    border-color: #d2d2d2;
+}
